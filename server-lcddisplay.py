@@ -7,6 +7,6 @@ text = 'hello world!1234567890'
 
 time.sleep(3)
 
-lcddisplay.write(bytes(text1, encoding="ascii")) 
+lcddisplay.write(bytes(text, encoding="ascii")) 
 lcddisplay.close()
 print(text)

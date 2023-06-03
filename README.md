@@ -1,5 +1,5 @@
 # Server LCD-Display
-### Send IP address from main NIC and current loadavg to LCD display
+Send IP address from main NIC and current loadavg to LCD display
 
 ![](https://github.com/Sebidev/server_lcd-display/blob/main/images/1685800997132.jpg)
 

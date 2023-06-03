@@ -14,7 +14,14 @@ Python 3 for computer/server program and VSCode with PlatformIO you need them to
 
 The Python program only works on Linux not on Windows or MacOS. I have tested it on Arch Linux, Debian, Rocky Linux and on Ubuntu.
 
-### The way to start
+### First steps
+Clone repository
+```
+https://github.com/Sebidev/server_lcd-display
+```
+Open VSCode and install PlatformIO. Open the repository as a project with PlatformIO and, if necessary, edit the platformio.ini file to suit the microcontroller you are using.
+And now just build the PlatformIO project and flash/upload it to your microcontroller.
+
 ```
 pip install -r requirements.txt
 python server-lcddisplay.py -sp <YOU-SERIALPORT> -n <YOU-NIC> #Output with local IP address from NIC and loadavg send to the LCD-Display

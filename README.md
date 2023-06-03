@@ -19,8 +19,7 @@ Clone repository
 ```
 https://github.com/Sebidev/server_lcd-display
 ```
-Open VSCode and install PlatformIO. Open the repository as a project with PlatformIO and, if necessary, edit the platformio.ini file to suit the microcontroller you are using.
-And now just build the PlatformIO project and flash/upload it to your microcontroller.
+Open VSCode and install PlatformIO. Open the repository as a project with PlatformIO and if necessary edit the platformio.ini file according to the microcontroller you are using. And now just build the PlatformIO project and flash the firmware on them microcontroller.
 
 ```
 pip install -r requirements.txt

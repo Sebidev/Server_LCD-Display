@@ -23,6 +23,6 @@ python server-lcddisplay.py -sp <YOU-SERIALPORT> -m <"YOU-MESSAGE"> #Only custom
 
 with cronjob you can run the python program every minute or hour in my example, cronjob runs my Python program once every 1 minute.
 ```
-sudo echo "*/1 * * * * <YOU-USER> /bin/python /home/sebidev/repos/server_lcd-display/server-lcddisplay.py <YOU-SERIALPORT> -n <YOU-NIC>" > /etc/crontab
+sudo echo "*/1 * * * * <YOU-USER> /bin/python /<YOU-PATH>/server-lcddisplay.py <YOU-SERIALPORT> -n <YOU-NIC>" > /etc/crontab
 sudo systemctl start cronie.service
 ```

@@ -17,7 +17,8 @@ The Python program only works on Linux not on Windows or MacOS. I have tested it
 ### The way to start
 ```
 pip install -r requirements.txt
-python server-lcddisplay.py -sp <YOU-SERIALPORT> -n <YOU-NIC> -m <YOU-MESSAGE>
+python server-lcddisplay.py -sp <YOU-SERIALPORT> -n <YOU-NIC> #Output with local IP address from NIC and loadavg send to the LCD-Display
+python server-lcddisplay.py -sp <YOU-SERIALPORT> -m <"YOU-MESSAGE"> #Only custom message send to LCD-Display
 ```
 
 with cronjob you can run the python program every minute or hour in my example, cronjob runs my Python program once every 1 minute.

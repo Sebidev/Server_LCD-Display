@@ -14,5 +14,11 @@ Python 3 for computer/server program and VSCode with PlatformIO you need them to
 ### The way to start
 ```
 pip install -r requirements.txt
-python server-lcddisplay.py -sp <YOU-SERIALPORT> -n <YOU-NIC>
+python server-lcddisplay.py -sp <YOU-SERIALPORT> -n <YOU-NIC> -m <YOU-MESSAGE>
+```
+
+with cronjob you can run the python program every minute or hour in my example, cronjob runs my Python program once every 1 minute.
+```
+sudo echo "*/1 * * * * <YOU-USER> /bin/python /home/sebidev/repos/server_lcd-display/server-lcddisplay.py <YOU-SERIALPORT> -n <YOU-NIC>" > /etc/crontab
+sudo systemctl start cronie.service
 ```

@@ -23,6 +23,7 @@ Open VSCode and install PlatformIO. Open the repository as a project with Platfo
 
 ```
 pip install -r requirements.txt
+sudo dmesg | grep tty
 python server-lcddisplay.py -sp <YOU-SERIALPORT> -n <YOU-NIC> #Output with local IP address from NIC and loadavg send to the LCD-Display
 python server-lcddisplay.py -sp <YOU-SERIALPORT> -m <"YOU-MESSAGE"> #Only custom message send to LCD-Display
 ```

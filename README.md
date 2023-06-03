@@ -17,7 +17,7 @@ The Python program only works on Linux not on Windows or MacOS. I have tested it
 ### First steps
 Clone repository
 ```
-https://github.com/Sebidev/server_lcd-display
+git clone https://github.com/Sebidev/server_lcd-display
 ```
 Open VSCode and install PlatformIO. Open the repository as a project with PlatformIO and if necessary edit the platformio.ini file according to the microcontroller you are using. And now just build the PlatformIO project and flash the firmware on them microcontroller.
 

@@ -21,4 +21,5 @@ time.sleep(3)
 lcddisplay.write(bytes(str(text), encoding="ascii"))
 time.sleep(3)
 lcddisplay.close()
+
 print("Output: " + text)

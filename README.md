@@ -12,7 +12,7 @@ Order both, solder them together, firmware for the microcontroller and the progr
 
 Python 3 for computer/server program and VSCode with PlatformIO you need them to be able to build the firmware for the microcontroller.
 
-The Python program only works on Linux not on Windows or MacOS.
+The Python program only works on Linux not on Windows or MacOS. I have tested it on Arch Linux, Debian, Rocky Linux and on Ubuntu.
 
 ### The way to start
 ```
